@@ -1,0 +1,106 @@
+{
+  "about": {
+    "intro": "Hey there! I'm a tech enthusiast with a deep passion for backend engineering, software development, and blockchain innovation. I thrive on building robust, scalable, and decentralized solutions that push the boundaries of technology.",
+    "description": "My expertise spans backend development, decentralized applications (DApps), and blockchain-driven ecosystems. I enjoy crafting efficient software architectures, integrating AI and machine learning where it matters, and ensuring security and scalability in every project I take on.",
+    "passion": "I'm driven by the vision of a decentralized future where technology empowers individuals. Whether it's designing secure smart contracts, optimizing backend performance, or exploring the intersections of AI and blockchain, I love transforming complex challenges into streamlined, impactful solutions.",
+    "philosophy": "Technology should be efficient, transparent, and accessible. I believe in writing clean, maintainable code while continuously learning and adapting to emerging trends. Beyond coding, I also find creativity in photography, capturing the world through a different lens."
+  },
+  "skills": [
+    {
+      "name": "HTML5",
+      "level": 90,
+      "icon": "fa-html5"
+    },
+    {
+      "name": "CSS3",
+      "level": 85,
+      "icon": "fa-css3-alt"
+    },
+    {
+      "name": "JavaScript",
+      "level": 80,
+      "icon": "fa-js"
+    },
+    {
+      "name": "React",
+      "level": 75,
+      "icon": "fa-react"
+    },
+    {
+      "name": "Node.js",
+      "level": 70,
+      "icon": "fa-node-js"
+    },
+    {
+      "name": "Python",
+      "level": 50,
+      "icon": "fa-python"
+    },
+      {
+        "name": "Supabase",
+        "level": 50,
+        "icon": "fa-solid fa-database"
+      },
+      {
+        "name": "Solidity",
+        "level": 30,
+        "icon": "fa-brands fa-ethereum"
+      },
+      {
+        "name": "TypeScript",
+        "level": 45,
+        "icon": "fa-solid fa-code"
+      },
+      {
+        "name": "Vite",
+        "level": 60,
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "name": "Django",
+        "level": 40,
+        "icon": "fa-solid fa-server"
+      },
+      {
+        "name": "SQL",
+        "level": 80,
+        "icon": "fa-solid fa-database"
+      },
+      {
+        "name": "Git",
+        "level": 90,
+        "icon": "fa-brands fa-git-alt"
+      },
+      {
+        "name": "Postman",
+        "level": 70,
+        "icon": "fa-solid fa-flask"
+      }
+  ],
+  "projects": [
+   {
+      "title": "IDEA SPOT",
+      "description": "Idea Spot: Unleash your creativity! Connect with innovators, collaborate on groundbreaking projects, and turn your ideas into reality. Share, discover, and grow—your next big breakthrough starts here!",
+      "image": "assets/images/project2.png",
+      "link": "https://sweet-eclair-a1ba22.netlify.app/",
+      "technologies": ["React", "TypeScript", "Vite", "React Router", "Tailwind CSS", "shadcn-ui", "Lucide React", "Tanstack React Query", "Supabase", "PostgreSQL"],
+      "fullDescription": "Welcome to Idea Spot, the ultimate platform for dreamers, creators, and innovators! Whether you're brimming with a game-changing concept or seeking the perfect collaborator to bring your vision to life, Idea Spot is your go-to hub. Our community connects like-minded individuals, matching you with talented collaborators who share your passion and complement your skills. Explore a vibrant space filled with fresh ideas, trending projects, and endless inspiration. From brainstorming to execution, Idea Spot empowers you to create, collaborate, and transform your ideas into impactful realities. Join us today—share your idea, discover new opportunities, and let’s build the future together!"
+    },
+    {
+      "title": "Weather Dashboard",
+      "description": "An interactive weather application that provides real-time weather data and forecasts for locations worldwide. Features include interactive maps, hourly and weekly forecasts, and weather alerts.",
+      "image": "assets/images/project3.png",
+      "link": "https://weather-app-0cff.onrender.com/",
+      "technologies": ["HTML", "CSS", "JavaScript", "Chart.js", "OpenWeather API"],
+      "fullDescription": "The Weather Dashboard is a comprehensive weather application that provides users with accurate, up-to-date weather information from around the world. It integrates with the OpenWeather API to fetch current conditions, hourly forecasts, and 5-day predictions. The dashboard features interactive charts built with Chart.js to visualize temperature trends, precipitation probability, and wind patterns. The UI was designed with accessibility in mind, ensuring that weather information is easily interpretable through both visual elements and screen readers. The application also includes a geolocation feature for quick access to local weather and a favorites system for saving frequently checked locations."
+    },
+    {
+      "title": "Gamechangers Sacco",
+      "description": "Game Changers SACCO , launched in 2023, empowers your financial future with accessible services, financial literacy, and community growth—join today!",
+      "image": "assets/images/project4.png",
+      "link": "https://yoursacco.netlify.app/",
+      "technologies": ["Vite", "TypeScript", "React", "shadcn-ui", "Tailwind CSS"],
+      "fullDescription": "Discover Game Changers SACCO Bank, a dynamic savings and credit cooperative launched in 2023, dedicated to transforming your financial future. With accessible services, financial literacy programs, and a focus on community growth, it’s your gateway to empowerment—join now and unlock a world of opportunities! "
+    }
+  ]
+}

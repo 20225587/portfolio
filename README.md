@@ -1,6 +1,7 @@
 ## Connect. Code. Collaborate. Create.
 
 ## Overview
+git remote set-url origin https://github.com/20225587/portfolio.git
 
 This portfolio is anchored on 'Connect. Code. Collaborate. Create.' It showcases a developer's skills, projects, and experience in a visually appealing and interactive way. The website features a responsive design with a toggleable dark and light mode that persists across sessions.
 

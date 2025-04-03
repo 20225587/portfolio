@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Connect. Code. Collaborate. Create.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#collaboration">Collaboration</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-toggle-checkbox">
+                <label for="theme-toggle-checkbox" class="toggle-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <div class="toggle-ball"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section (Connect) -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1>Hello, I'm <span class="highlight">Robinson Musau</span></h1>
+            <div class="typed-container">
+                <span id="typed-text"></span>
+            </div>
+            <div class="hero-cta">
+                <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                <a href="#projects" class="btn secondary-btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section (Connect) -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="assets/images/placeholder-profile.jpg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="about-text" id="about-text-container">
+                    <!-- Content will be loaded from JSON -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Background Section (Code) -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Educational Background</h2>
+            <div class="cv-download">
+                <a href="assets/Google resume.pdf" download class="btn download-btn">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Science in Software Engineering</h3>
+                        <h4>Kirinyaga University</h4>
+                        <p class="timeline-date">2021 - 2025</p>
+                        <p>Pursued this degree to completion</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>High School Diploma</h3>
+                        <h4>Kaumoni High School</h4>
+                        <p class="timeline-date">2017 - 2021</p>
+                        <p>Completed my Secondary Level Education</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development</h3>
+                        <h4>Power Learn project</h4>
+                        <p class="timeline-date">Feb 2025 - Current</p>
+                        <p>Scholarship Bootcamp online</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Ethereum Bootcamp</h3>
+                        <h4>Alchemy University</h4>
+                        <p class="timeline-date">Jan 2025 - Current</p>
+                        <p>Web3 dev bootcamp dealing with smart contracts.Where its blockchain utilizes proof of stake.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programming Languages Section (Code) -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Programming Languages</h2>
+            <div class="skills-container" id="skills-container">
+                <!-- Skills will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section (Create) -->
+    <section id="interests" class="interests-section">
+        <div class="container">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-container">
+                <div class="interest-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend Engineering</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Backend development focuses on the server-side logic, databases, and APIs that power applications, ensuring functionality, security, and performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Software Products</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Enjoy developing efficient, scalable, and secure software systems that ensure seamless interactions between users and technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-robot"></i>
+                            <h3>AI & ML</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Fascinated by the potential of artificial intelligence and machine learning to solve complex problems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-coins"></i>
+                            <h3>Blockchain</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Blockchain is a secure, decentralized ledger powering smart contracts and DApps for trustless transactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-plug"></i>
+                            <h3>API Integrations</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Seamlessly connecting applications through powerful APIs to enhance functionality, automate workflows, and enable interoperability across platforms.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Create) -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section (Connect) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>jtimzatim@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+254769959698</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Nairobi, Kenya</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/20225587" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/robytech/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/robydevr_ke" class="social-link"><i class="fab fa-x"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" action="https://formsubmit.co/jtimzatim@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <div class="error-message" id="subject-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peer Collaboration Section (Collaborate) -->
+    <section id="collaboration" class="collaboration-section">
+        <div class="container">
+            <h2 class="section-title">Peer Collaboration</h2>
+            <div class="collaboration-content">
+                <div class="collaboration-text">
+                    <p>Collaboration is at the heart of my development philosophy. I believe that the best solutions emerge when diverse minds come together to solve problems.</p>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">Team Projects</div>
+                            <div class="accordion-content">
+                                <p>I've worked on several team projects where I contributed my skills in frontend development while collaborating with backend developers, designers, and project managers to deliver comprehensive solutions.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Hackathons</div>
+                            <div class="accordion-content">
+                                <p>Participating in hackathons has taught me the value of rapid ideation, efficient communication, and leveraging each team member's strengths to create innovative products under tight deadlines.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Open Source Contributions</div>
+                            <div class="accordion-content">
+                                <p>Contributing to open source projects has expanded my technical skills and taught me how to effectively collaborate with developers across different time zones and backgrounds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collaboration-badges">
+                    <div class="badge">
+                        <i class="fas fa-users"></i>
+                        <span>Team Player</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-comments"></i>
+                        <span>Communicator</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Problem Solver</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-handshake"></i>
+                        <span>Mentor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025. All Rights Reserved.</p>
+            <p>Robinson solutions</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
